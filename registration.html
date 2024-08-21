@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="main-body">
+    <header class="main-navbar">
+        <a href="#" class="logo">$</a>
+        <nav class="navbar">
+            <a href="index.html">HOME</a>
+            <a href="login.html">LOGIN</a>
+            <a href="registration.html">REGISTRATION</a>
+            <a href="timetable.html">TIMETABLE</a>
+        </nav>
+    </header>
+
+    <div>
+        <hr class="horizontal-line">
+    </div>
+
+    <div class="registration-header">
+        <h1>STUDENT REGISTRATION FORM</h1>
+    </div>
+
+    <div class="registration-main">
+
+        <form action="">
+            <div class="basic-main">
+                <div class="basic-header">
+                    <h1>Basic Information</h1>
+                </div>
+                <div class="basic-form">
+                    <div class="name">
+                        <label for="first-name">First Name*</label>
+                        <input class="input" type="text">
+    
+                        <label for="middle-name">Middle Name</label>
+                        <input class="input" type="text">
+    
+                        <label for="last-name">Last Name*</label>
+                        <input class="input" type="text">
+                    </div>
+                    <div class="roll-no">
+                        <label for="roll-no">Roll No.*</label>
+                        <input class="input" type="text">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email ID*</label>
+                        <input class="input" type="email">
+                    </div>
+                    <div class="phone">
+                        <label for="phone-no">Phone No.*</label>
+                        <input class="input" type="number">
+                    </div>
+                    <div class="user-id">
+                        <label for="user-id">User ID*</label>
+                        <input class="input" type="text">
+                    </div>
+                    <div class="password1">
+                        <label for="password">Enter Password*</label>
+                        <input class="input" type="password">
+                    </div>
+                    <div class="password2">
+                        <label for="password">Re-Enter Password*</label>
+                        <input class="input" type="password">
+                    </div>
+                    <div class="branch-year">
+                        <label for="branch">Branch :</label>
+                        <select class="input" name="branch" id="branch">
+                          <option value="CSE">CSE</option>
+                          <option value="Mechenical">Mechenical</option>
+                          <option value="Civil">Civil</option>
+                          <option value="Management">Management</option>
+                        </select>
+    
+                        <label for="year">Year of Studying :</label>
+                        <select class="input" name="year" id="year">
+                          <option value="First">First</option>
+                          <option value="Second">Second</option>
+                          <option value="Third">Third</option>
+                          <option value="Fourth">Fourth</option>
+                        </select>
+                    </div>
+                    <div class="photo">
+                        <label for="img">Upload Photo : </label>
+                        <input type="file" id="img" name="img" accept="image/*">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="basic-main">
+                <div class="basic-header">
+                    <h1>Personal Information</h1>
+                </div>
+                <div class="basic-form">
+                    <div class="personal1">
+                        <label for="fathers-name">Father Name*</label>
+                        <input class="input" type="text">
+    
+                        <label for="contact-no">Contact No.*</label>
+                        <input class="input" type="text">
+                    </div>
+                    <div class="personal1">
+                        <label for="motherss-name">Mother Name*</label>
+                        <input class="input" type="text">
+    
+                        <label for="contact-no">Contact No.*</label>
+                        <input class="input" type="text">
+                    </div>
+                    <div class="personal1">
+                        <label for="birthday">Date of Birth : </label>
+                        <input class="input" type="date" id="birthday" name="birthday">
+    
+                        <label for="aadhar-no">Aadhar No.*</label>
+                        <input class="input" type="text">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="basic-main">
+                <div class="basic-header">
+                    <h1>Address</h1>
+                </div>
+                <div class="basic-form">
+                    <div class="address1">
+                        <label for="address">Address 1*</label>
+                        <textarea class="input" rows="4" cols="103" name="address" form=""></textarea>
+                    </div>
+                    <div class="address1">
+                        <label for="address">Address 2</label>
+                        <textarea class="input" rows="4" cols="103" name="address" form=""></textarea>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="register-button-main">
+                <div class="button-container">
+                    <button type="button" onclick="solve()">
+                        Register
+                    </button>
+    
+                    <button type="reset" onclick="solve()">
+                        Reset
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,495 @@
+.main-body{
+    background-color: #D6BD98;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.header{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Abril Fatface', serif;
+    color: #1A3636;
+    font-weight: bold;
+}
+
+.main-navbar{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #40534C;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Abril Fatface', serif;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    color: #40534C;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #1A3636;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.horizontal-line{
+    width: 80%;
+    height: 2px;
+    border-width: 0;
+    color: #677D6A;
+    background-color: #677D6A;
+}
+
+.movingtext-main{
+    
+    align-items: center;
+    text-align: center;
+}
+
+.movingtext-main marquee{
+    font-size: 25px;
+    font-family: 'Abril Fatface', serif;
+    color: #677D6A;
+    width: 80%;
+}
+
+.headings{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    align-items: center;
+}
+
+
+.headings-text{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Abril Fatface', serif;
+    color: #1A3636;
+}
+
+.timetable-header{
+    text-align: center;
+    font-family: 'Abril Fatface', serif;
+    color: #1A3636;
+}
+
+.timetable-info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Abril Fatface', serif;
+    color: #40534C;
+}
+
+.paragraph-main{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 80%;
+    display: flex;
+}
+
+.paragraph-image{
+    margin: 30px;
+}
+
+.paragraph-text{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1A3636;
+    vertical-align:middle;
+    margin: 30px;
+}
+
+.list-main{
+    margin-top: 100px;
+    width: 100%;
+}
+
+.list-header{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Abril Fatface', serif;
+    color: #1A3636;
+}
+
+.list-text{
+    margin: 50px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #40534C;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.list-text li{
+    margin-top: 10px;
+}
+
+.list-text li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #40534C;
+}
+
+.top-main{
+    height: 20vh;
+    align-items: center;
+    text-align: center;
+}
+
+.btn button{
+    margin-top: 20px;
+    background: #1A3636;
+    color: #677D6A;
+    width: 140px;
+    height: 40px;
+    border: 2px solid #1A3636;
+    font-size: 12px;
+    border-radius: 100px;
+    transition: .6s;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background: #677D6A;
+    border: 1px solid #1A3636;
+    color: #1A3636;
+}
+
+.timetable-main{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.timetable-main table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 2px solid #40534C;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timetable-day{
+    font-size: 18px;
+    color: #1A3636;
+    font-family: 'Abril Fatface', serif;
+}
+
+.timetable-subject{
+    font-size: 16px;
+    color: #40534C;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.timetable-main table th{
+    font-size: 18px;
+    color: #1A3636;
+    font-family: 'Abril Fatface', serif;
+    padding: 10px;
+    border: 2px solid #40534C;
+}
+
+.timetable-main table td{
+    padding: 10px;
+    border: 2px solid #40534C;
+    text-align: center;
+}
+
+
+
+.subject-main{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.subject-main table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 2px solid #40534C;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subject-main table th{
+    font-size: 18px;
+    color: #1A3636;
+    font-family: 'Abril Fatface', serif;
+    padding: 10px;
+    border: 2px solid #40534C;
+}
+
+.subject-main table td{
+    padding: 10px;
+    border: 2px solid #40534C;
+    text-align: center;
+    font-size: 16px;
+    color: #40534C;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-container{
+    border-radius: 20px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #677D6A;
+    width: fit-content;
+    height: fit-content;
+}
+
+.form-header{
+    font-size: 16px;
+    font-family: 'Abril Fatface', serif;
+    color: #1A3636;
+    margin: 20px;
+}
+
+.form form{
+    display: grid;
+}
+
+.form form input{
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 50px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #1A3636;
+    color: #677D6A;
+}
+
+.form-text a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1A3636;
+}
+
+
+
+.registration-header{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Abril Fatface', serif;
+    color: #1A3636;
+    text-align: center;
+}
+
+.registration-main{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c2a87f;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.basic-header{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #99815b;
+    font-size: 16px;
+    font-family: 'Abril Fatface', serif;
+    color: #1A3636;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+
+.basic-form{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.roll-no{
+    width: 30.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email{
+    width: 30.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone{
+    width: 30.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-id{
+    width: 30.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password1{
+    width: 30.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password2{
+    width: 30.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.branch-year{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{
+    width: 40.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basic-form div{
+    margin-top: 10px;
+}
+
+.basic-form label{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1A3636;
+}
+
+.basic-form input{
+    box-sizing: border-box;
+    color: #1A3636;
+    box-shadow: none;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input{
+    background-color: #c2a87f;
+    border: 1px solid #1A3636;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo input::file-selector-button{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1A3636;
+    background-color: #c2a87f;
+    border: 1px solid #1A3636;
+    border-radius: 5px;
+}
+
+.personal1{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-button-main{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    align-items: center;
+}
+
+.button-container{
+    padding-top: 5%;
+}
+
+.button-container button{
+    background: #1A3636;
+    color: #677D6A;
+    width: 140px;
+    height: 40px;
+    border: 2px solid #1A3636;
+    font-size: 12px;
+    border-radius: 100px;
+    transition: .6s;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.button-container button:hover{
+    cursor: pointer;
+    background: #677D6A;
+    border: 1px solid #1A3636;
+    color: #1A3636;
+}
